@@ -1,6 +1,9 @@
 # Check toolchain with powershell
 Debug a NCS project's toolchain with a powershell script. Check version of applications, software and OS. Print pathways, and connected development kits. This script was used with a BLE-MIDI project, and is therefore tailored for that.
 
+# Disclaimer
+It's been a while since I set this up to work, do so at your own risk! You might need to alter the execution policy, which is done by entering "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass" in your powershell terminal.
+
 # Requirements
 This script has only been tested with these requirements:
 - Visual Studio Code
